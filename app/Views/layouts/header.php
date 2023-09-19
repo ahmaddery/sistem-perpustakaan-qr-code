@@ -5,6 +5,27 @@
       display: none;
     }
   }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+  }
+
+  .btn-primary, .btn-outline-primary {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    border-radius: 25px;
+  }
+
+  .btn-primary:hover, .btn-outline-primary:hover {
+    transform: scale(1.05);
+  }
+
+  .user-icon {
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 5px;
+  }
 </style>
 <header class="app-header">
   <nav class="navbar navbar-expand-lg navbar-light">

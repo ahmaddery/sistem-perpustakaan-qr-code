@@ -5,6 +5,44 @@
 <?= $this->endSection() ?>
 
 <?= $this->section('content') ?>
+
+<div class="col-lg-3 col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h2>
+          <i class="fas fa-clock"></i>
+        </h2>
+        <h3>
+          Jam Sekarang:
+        </h3>
+        <p id="currentDateTime"></p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function updateDateTime() {
+      const now = new Date();
+      const options = {
+        timeZone: 'Asia/Jakarta',
+        hour: 'numeric',
+        minute: 'numeric',
+        second: 'numeric',
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+        weekday: 'long'
+      };
+      const dateTimeString = now.toLocaleDateString('id-ID', options);
+      document.getElementById('currentDateTime').innerText = dateTimeString;
+    }
+
+    // Update date and time every second
+    setInterval(() => {
+      updateDateTime();
+    }, 1000);
+  </script>
+
 <div class="row">
   <!-- BOOKS -->
   <div class="col-lg-3 col-sm-6">
