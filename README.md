@@ -1,6 +1,6 @@
 # BukuHub - Sistem Perpustakaan QR Code
 
-[![PHP Composer](https://github.com/ahmaddery/sistem-perpustakaan-qr-code/actions/workflows/php.yml/badge.svg)](https://github.com/ikhsan3adi/sistem-perpustakaan-qr-code/actions/workflows/php.yml)
+[![PHP Composer](https://github.com/ahmaddery/sistem-perpustakaan-qr-code/actions/workflows/php.yml/badge.svg)](https://github.com/ahmaddery/sistem-perpustakaan-qr-code/actions/workflows/php.yml)
 
 ![Preview](https://github.com/ahmaddery/sistem-perpustakaan-qr-code/raw/main/screenshots/home.png)
 
